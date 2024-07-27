@@ -1,0 +1,889 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0;
+    background-image:linear-gradient(rgba(20, 19, 19, 0.808),rgba(0, 0, 0, 0.952)) ;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* This is head Start section */
+header{
+    max-width: 85%;
+    margin:0 auto;
+    margin-top: 60px;
+
+}
+.left-width{
+    max-width: 50%;
+    float: left;
+    /* background-color: rgba(245, 245, 220, 0.205); */
+
+}
+
+.right-width{
+    max-width: 48%;
+    overflow: hidden;
+    /* float: right; */
+    /* background-color: rgba(137, 43, 226, 0.295); */
+}
+.right-width >.menu-list{
+    border: 1px solid gray;
+    box-sizing: border-box;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.left-width >h1>a{
+    color: tomato;
+    font-size: 40px;
+    text-decoration: none;
+}
+.top-margin{
+    margin-top: 60px;
+}
+
+.head-txt{
+    box-sizing: border-box;
+    padding-top: 100px;
+}
+.head-txt h1{
+    font-size: 70px;
+    font-weight:900;
+    color: white;
+}
+span{
+    font-family:Edwardian Script ITC;
+    font-weight: 400;
+    font-size: 100px;
+}
+.head-p-txt>p{
+    color: lightgrey;
+    font-size: 18px;
+    padding: 30px 0px;
+}
+.btn{
+    box-sizing: border-box;
+}
+.head-btn .btn a .btn-1{
+    padding: 16px 40px;
+    background-color: tomato;
+    border: 0;
+    border-radius: 35px;
+    color: white;
+    font-size: 18px;
+    margin-right:11px ;
+}
+
+.head-btn .btn a .btn-1:hover{
+    padding: 16px 40px;
+    border: 1px solid white;
+    background-color: rgba(20, 19, 19, 0.562);
+    border-radius: 35px;
+    color: white;
+    font-size: 18px;
+}
+
+.head-btn .btn a .btn-2{
+    padding: 16px 40px;
+    border: 1px solid white;
+    background-color: rgba(20, 19, 19, 0.562);
+    border-radius: 35px;
+    color: white;
+    font-size: 18px;
+}
+
+.head-btn .btn a .btn-2:hover{
+    padding: 16px 40px;
+    background-color: tomato;
+    border-radius: 35px;
+    font-size: 18px;
+    border: 0;
+}
+/* This is head End section */
+
+/* This is Menubar Start section */
+
+.right-width>.menu-list{
+    width: 423px;
+    margin: auto;
+}
+
+/* .right-width ul{
+    border: 1px solid gray;
+} */
+
+
+.right-width ul li{
+    float: left;
+    list-style-type: none;
+    padding: 2px;
+   
+}
+.right-width ul li a{
+    text-decoration: none;
+    padding: 10px 28px;
+    display: inline-block;
+    color: white;
+    box-sizing: border-box;
+}
+.right-width ul li a:hover{
+    background-color: tomato;
+    border-radius: 25px;
+}
+/* This is Menubar End section */
+
+/* This is head image Start section */
+.head-img{
+    background-image: url(img/images/Images\ 2.png);
+    width: 80%;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 70px;
+    padding-left: 150px;
+    position: relative;
+}
+/* This is head image section */
+
+/* This is head card section */
+.head-card-1{
+    width: 207px;
+    height: 100px;
+    background-color: rgba(92, 91, 91, 0.342);
+    border-radius: 16px;
+    border: 1px solid rgba(220, 220, 220, 0.219);
+    box-sizing: border-box;
+    position: absolute;
+    top: 465px;
+    left: 0px;
+}
+
+.head-card-2{
+    width: 207px;
+    height: 100px;
+    background-color: rgba(92, 91, 91, 0.342);
+    border-radius: 16px;
+    border: 1px solid rgba(220, 220, 220, 0.219);
+    box-sizing: border-box;
+    position: absolute;
+    top: 169px;
+    left: 341px;
+}
+.head-card-1>.red-circle{
+    background-color: tomato;
+    width: 20%;
+    height: 45px;
+    border-radius: 50%;
+    float: left;
+    position: relative;
+    top: 30px;
+    left: 25px;
+}
+
+.head-card-2>.red-circle{
+    background-color: tomato;
+    width: 20%;
+    height: 45px;
+    border-radius: 50%;
+    float: left;
+    position: relative;
+}
+.head-card-1>.txt-area{
+    color: white;
+    overflow: hidden;
+    padding-left: 35px;
+    padding-top: 18px;
+}
+.head-card-2>.txt-area{
+    color: white;
+    overflow: hidden;
+    padding-left: 35px;
+    padding-top: 18px;
+}
+.head-card-1 .txt-area p{
+    font-size: 17px;
+}
+.head-card-2 .txt-area p{
+    font-size: 17px;
+}
+.head-card-2 .txt-area h1{
+    font-size: 40px;
+}
+/* This is head card section */
+
+
+/* This is habits Start section */
+
+.habits-section h1{
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    padding-bottom: 10px;
+}
+.habits-section>p{
+    width: 50%;
+    color: rgba(211, 211, 211, 0.486);
+    font-size: 18px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* This is habits End section */
+
+/* This is habits Start section */
+.cirle-img{
+    width: 80%;
+    height: 300px;
+    /* background-color: rgba(240, 248, 255, 0.541); */
+    margin:auto;
+    overflow: hidden;
+    box-sizing: border-box;
+    margin-top: 70px;
+}
+.cirle-img-sub{
+    width: 20%;
+    height: 60%;
+    /* background-color: aquamarine; */
+    float: left;
+    margin-left: 40px;
+    border-radius: 50%;
+}
+.cirle-img-1{
+    background-image: url(img/images/image\ 3.png);
+    width: 82%;
+    height: 100%;
+    background-repeat: no-repeat;
+    border-radius: 100%;
+    border: 4px solid rgb(54, 52, 52);
+}
+.cirle-img-2{
+    background-image: url(img/images/image\ 2.png);
+    width: 82%;
+    height: 100%;
+    background-repeat: no-repeat;
+    border-radius: 100%;
+    border: 4px solid rgb(54, 52, 52);
+}
+.cirle-img-3{
+    background-image: url(img/images/image\ 4.png);
+    width: 82%;
+    height: 100%;
+    background-repeat: no-repeat;
+    border-radius: 100%;
+    border: 4px solid rgb(54, 52, 52);
+}
+.cirle-img-4{
+    background-image: url(img/images/image\ 5.png);
+    width: 82%;
+    height: 100%;
+    background-repeat: no-repeat;
+    border-radius: 100%;
+    border: 4px solid rgb(54, 52, 52);
+}
+.cirle-img-1>h4{
+    text-align: center;
+    color: white;
+    padding-top: 202px;
+}
+.cirle-img-1>p{
+    text-align: center;
+    color: rgba(211, 211, 211, 0.486);
+}
+.cirle-img-2>h4{
+    text-align: center;
+    color: white;
+    padding-top: 202px;
+}
+.cirle-img-2>p{
+    text-align: center;
+    color: rgba(211, 211, 211, 0.486);
+}
+.cirle-img-3>h4{
+    text-align: center;
+    color: white;
+    padding-top: 202px;
+}
+.cirle-img-3>p{
+    text-align: center;
+    color: rgba(211, 211, 211, 0.486);
+}
+.cirle-img-4>h4{
+    text-align: center;
+    color: white;
+    padding-top: 202px;
+}
+.cirle-img-4>p{
+    text-align: center;
+    color: rgba(211, 211, 211, 0.486);
+}
+
+
+/* Run an Extra Mile Easily Image */
+.run-box{
+    width: 72%;
+    height: 330px;
+    background-color: rgba(78, 76, 76, 0.377);
+    margin: auto;
+    border-radius: 20px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.run-box .run-txt{
+    width: 50%;
+    padding: 35px 30px 40px 50px;
+    float: left;
+    box-sizing: border-box;
+}
+.run-box .run-txt>h1{
+    font-size: 45px;
+    color: white;
+}
+.run-box .run-txt>p{
+    color: rgba(211, 211, 211, 0.486);
+    padding-top: 15px;
+    padding-bottom: 20px;
+    box-sizing: border-box;
+}
+.run-box .run-txt a input{
+    padding: 15px 60px;
+    background-color: tomato;
+    border: 0;
+    border-radius: 20px;
+    color: white;
+    font-size: 17px;
+}
+
+.run-box .run-img{
+    width: 50%;
+    overflow: hidden;
+    border-radius: 20px;
+    box-sizing: border-box;
+    /* padding: 29px 0px 0 0px; */
+    height: 400px;
+    position: relative;
+}
+.run-box .run-img>.run-img-1{
+    background-image: url(img/images/run.jpg);
+    background-repeat: no-repeat;
+    width: 90%;
+    height: 270px;
+    border-radius: 20px;
+    background-size: cover;
+    overflow: hidden;
+    position: absolute;
+    top: 8%;
+    left: 5%;
+    /* transform: translate(-50% ,-50%); */
+}
+.run-box .run-img>.run-img-1:hover{
+    transform: scale(1.080);
+    transition: 0.5s;
+}
+
+/*  */
+.Training-section{
+    width: 72%;
+    margin: auto;
+    margin-top: 100px;
+    box-sizing: border-box;
+}
+.Training-txt{
+    margin-bottom: 60px;
+}
+.Training-section .Training-txt h1{
+    color: white;
+    font-size: 45px;
+}
+.Training-section .Training-txt p{
+    color: rgba(211, 211, 211, 0.486);
+    padding-top: 10px;
+    width: 60%;
+}
+.img-card-box{
+    width: 100%;
+}
+.img-card-box-1{
+    width: 25%;
+    float: left;
+}
+.img-card-box .img-card-box-1 .imgimg-1{
+    width: 100%;
+    height: 180px;
+    background-image: url(img/images/exercise1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.img-card-box-2{
+    width: 50%;
+    overflow: hidden;
+    float: left;
+}
+.img-card-box .img-card-box-2 .imgimg-2{
+    width: 100%;
+    height: 180px;
+    background-image: url(img/images/exercise2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.img-card-box-3{
+    width: 25%;
+    overflow: hidden;
+    float: left;
+}
+.img-card-box .img-card-box-3 .imgimg-3{
+    width: 100%;
+    height: 180px;
+    background-image: url(img/images/exercise3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.img-card-box-4{
+    width: 45%;
+    overflow: hidden;
+    float: left;
+}
+.img-card-box .img-card-box-4 .imgimg-4{
+    width: 100%;
+    height: 180px;
+    background-image: url(img/images/exercise4.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.img-card-box-5{
+    width: 25%;
+    overflow: hidden;
+    float: left;
+}
+.img-card-box .img-card-box-5 .imgimg-5{
+    width: 100%;
+    height: 180px;
+    background-image: url(img/images/exercise5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.img-card-box-6{
+    width: 30%;
+    overflow: hidden;
+}
+.img-card-box .img-card-box-6 .imgimg-6{
+    width: 100%;
+    height: 180px;
+    background-image: url(img/images/exercise6.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.Training-section .bmi-cal{
+    margin: 70px 0;
+}
+.Training-section .bmi-cal h1{
+    color: white;
+    font-size: 40px;
+    padding-left: 200px;
+}
+.Training-section .bmi-cal p{
+    color: rgba(211, 211, 211, 0.486);
+    padding-left: 200px;
+    padding-top: 15px;
+    width: 60%;
+}
+
+.Calculator-section{
+    background-color: rgb(53, 53, 53);
+    width: 100%;
+    height: 450px;
+}
+.Calculator-section .cal-sec-sub{
+    width: 80%;
+    height: 500px;
+    margin: auto;
+    /* background-color: azure; */
+    
+}
+.Calculator-section .cal-sec-sub .cal-sec-sub-1{
+    width: 50%;
+    height: 400px;
+    /* background-color: blueviolet; */
+    float: left;
+    box-sizing: border-box;
+    padding-left: 80px;
+    
+}
+.Calculator-section .cal-sec-sub .cal-sec-sub-2{
+    width: 50%;
+    height: 400px;
+    overflow: hidden;
+}
+/* Left Table */
+.left-table,th,td{
+    border: 1px solid lightgray;
+    border-collapse: collapse;
+    padding: 10px;
+}
+.left-table th{
+    color: white;
+}
+.left-table td{
+    color: rgba(211, 211, 211, 0.486);
+}
+.cal-sec-sub .cal-sec-sub-1 h1{
+    color: white;
+    padding: 45px 0;
+    font-size: 28px;
+}
+.cal-sec-sub .cal-sec-sub-2 h1{
+    color: white;
+    font-size: 28px;
+    padding-top: 45px;
+}
+.cal-sec-sub .cal-sec-sub-2 p{
+    padding: 15px 0px 30px 0px;
+    color: rgba(211, 211, 211, 0.486);
+}
+.cal-sec-sub-2 .input-area{
+    width: 80%;
+    box-sizing: border-box;
+}
+.input-area .input-area-sub-50 input::placeholder{
+    color: white;
+    padding: 5px;
+    font-size: 15px;
+}
+
+.cal-sec-sub-2 .input-area .input-area-sub-50{
+    width: 100%;
+    box-sizing: border-box;
+}
+.cal-sec-sub-2 .input-area .input-area-sub-50 input{
+    width: 40%;
+    padding: 13px 18px;
+    border-radius: 10px;
+    border: 0;
+    background-color: rgb(124, 121, 121);
+    margin-bottom: 10px;
+    font-size: 20px;
+    color: white;
+}
+.cal-sec-sub-2 .input-area .input-area-sub-50 .input-margin-left{
+    margin: 0px 2px 7px;
+
+}
+.cal-sec-sub-2 .input-area .input-area-sub-50 .input-margin-left-1{
+    margin: 0px 2px 0px;
+}
+.cal-sec-sub-2 .input-area .input-area-sub-50 select{
+    width: 48%;
+    padding: 13px 18px;
+    border-radius: 10px;
+    border: 0;
+    background-color: rgb(124, 121, 121);
+    margin-bottom: 10px;
+    color: white;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+.input-area-sub-100 select{
+    width: 100%;
+    padding: 12px 18px;
+    border: 0;
+    border-radius: 8px;
+    background-color: grey;
+    color: white;
+    font-size: 15px;
+    margin-left: 2px;
+}
+.input-area-sub-btn a input{
+    padding: 15px 60px;
+    background-color: tomato;
+    border: 0;
+    border-radius: 20px;
+    color: white;
+    font-size: 17px;
+    margin-top: 25px;
+}
+
+.our-team-txt>h1{
+    text-align: center;
+    color:white;
+    font-size: 45px;
+    margin-top: 60px;
+}
+.our-team-txt>p{
+    width: 56%;
+    margin: auto;
+    text-align: center;
+    color: rgba(211, 211, 211, 0.486);
+    padding: 15px 0;
+    margin-bottom: 50px;
+}
+.team-section{
+    width: 80%;
+    height: 850px;
+    margin: auto;
+    border-radius: 15px;
+    overflow: hidden;
+}
+.team-section .team-card-box{
+    width: 90%;
+    height: 540px;
+    margin: auto;
+    background-color: rgba(95, 91, 91, 0.37);
+    border-radius: 17px;
+}
+.team-section .team-card-box .team-img-box-1{
+    width: 30%;
+    height: 240px;
+    background-color: antiquewhite;
+    border-radius: 15px;
+    float: left;
+    margin:20px 12px 0px 24px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.459), rgba(0, 0, 0, 0.459)),url(img/images/trainer1.png);
+    background-position: center top;
+}
+
+.team-section .team-card-box .team-img-box-2{
+    width: 30%;
+    height: 240px;
+    background-color:forestgreen;
+    border-radius: 15px;
+    overflow: hidden;
+    float: left;
+    margin:20px 25px 0px 12px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.459), rgba(0, 0, 0, 0.459)),url(img/images/trainer2.png);
+    background-position: center top;
+    /* margin-right:15px ; */
+}
+.team-section .team-card-box .team-img-box-3{
+    width: 30%;
+    height: 240px;
+    background-color:darkgoldenrod;
+    border-radius: 15px;
+    overflow: hidden;
+    float: left;
+    margin:20px 0 0px 0px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.459), rgba(0, 0, 0, 0.459)),url(img/images/trainer3.png);
+    background-position: center top;
+
+    /* margin:20px 10px 0px 15px; */
+}
+.team-section .team-card-box .team-img-box-4{
+    width: 30%;
+    height: 240px;
+    background-color:palevioletred;
+    border-radius: 15px;
+    overflow: hidden;
+    float: left;
+    margin:20px 12px 12px 24px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.459), rgba(0, 0, 0, 0.459)),url(img/images/trainer4.png);
+    background-position: center top;
+    /* margin-right:15px ; */
+}
+.team-section .team-card-box .team-img-box-5{
+    width: 30%;
+    height: 240px;
+    background-color:darkmagenta;
+    border-radius: 15px;
+    overflow: hidden;
+    float: left;
+    margin:20px 12px 12px 12px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.459), rgba(0, 0, 0, 0.459)),url(img/images/trainer5.png);
+    background-position: center top;
+}
+.team-section .team-card-box .team-img-box-6{
+    width: 30%;
+    height: 240px;
+    background-color:crimson;
+    border-radius: 15px;
+    float: left;
+    overflow: hidden;
+    margin:20px 12px 12px 12px;
+    box-sizing: border-box;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.459), rgba(0, 0, 0, 0.459)),url(img/images/trainer6.png);
+    background-position: center center;
+}
+.team-section .team-card-box .team-img-box-1:hover{
+    box-shadow: 10px 10px 12px rgba(128, 128, 128, 0.603);
+}
+.team-section .team-card-box .team-img-box-2:hover{
+    box-shadow: 10px 10px 12px rgba(128, 128, 128, 0.603);
+}
+.team-section .team-card-box .team-img-box-3:hover{
+    box-shadow: 10px 10px 12px rgba(128, 128, 128, 0.603);
+}
+.team-section .team-card-box .team-img-box-4:hover{
+    box-shadow: 10px 10px 12px rgba(128, 128, 128, 0.603);
+}
+.team-section .team-card-box .team-img-box-5:hover{
+    box-shadow: 10px 10px 12px rgba(128, 128, 128, 0.603);
+}
+
+.team-section .team-card-box .team-img-box-6:hover{
+    box-shadow: 10px 10px 12px rgba(128, 128, 128, 0.603);
+}
+
+.team-section .team-card-box .team-img-box-1>h3{
+    padding-top: 178px;
+    padding-left: 25px;
+    color: white;
+}
+.team-section .team-card-box .team-img-box-1>p{
+    padding-left: 27px;
+    color: rgba(211, 211, 211, 0.486);
+}
+
+.team-section .team-card-box .team-img-box-2>h3{
+    padding-top: 178px;
+    padding-left: 25px;
+    color: white;
+}
+.team-section .team-card-box .team-img-box-2>p{
+    padding-left: 27px;
+    color: rgba(211, 211, 211, 0.486);
+}
+.team-section .team-card-box .team-img-box-3>h3{
+    padding-top: 178px;
+    padding-left: 25px;
+    color: white;
+}
+.team-section .team-card-box .team-img-box-3>p{
+    padding-left: 27px;
+    color: rgba(211, 211, 211, 0.486);
+}
+
+.team-section .team-card-box .team-img-box-4>h3{
+    padding-top: 178px;
+    padding-left: 25px;
+    color: white;
+}
+.team-section .team-card-box .team-img-box-4>p{
+    padding-left: 27px;
+    color: rgba(211, 211, 211, 0.486);
+}
+
+.team-section .team-card-box .team-img-box-5>h3{
+    padding-top: 178px;
+    padding-left: 25px;
+    color: white;
+}
+.team-section .team-card-box .team-img-box-5>p{
+    padding-left: 27px;
+    color: rgba(211, 211, 211, 0.486);
+}
+
+.team-section .team-card-box .team-img-box-5>h3{
+    padding-top: 178px;
+    padding-left: 25px;
+    color: white;
+}
+.team-section .team-card-box .team-img-box-5>p{
+    padding-left: 27px;
+    color: rgba(211, 211, 211, 0.486);
+}
+
+.team-section .team-card-box .team-img-box-6>h3{
+    padding-top: 178px;
+    padding-left: 25px;
+    color: white;
+}
+.team-section .team-card-box .team-img-box-6>p{
+    padding-left: 27px;
+    color: rgba(211, 211, 211, 0.486);
+}
+
+
+/* This is footer section */
+
+.footer-section{
+    width: 100%;
+    height: 400px;
+    background-color: rgb(53, 53, 53);
+}
+.footer-section .footer-width{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    padding-top: 50px;
+}
+.footer-section .footer-width .footer-1 h1{
+    margin-top: 20px;
+}
+.footer-section .footer-width .footer-1 h1>a{
+    font-size: 70px;
+    color: tomato;
+    text-decoration: none;
+}
+.footer-section .footer-width .footer-1>p{
+    color: rgba(211, 211, 211, 0.486);
+    padding-top: 20px;
+    width: 87%;
+}
+
+.footer-section .footer-width .footer-1{
+    width: 40%;
+    float: left;
+}
+.footer-section .footer-width .footer-2{
+    width: 60%;
+    overflow: hidden;
+}
+
+.footer-section .footer-width .footer-2>.Get-Started-1{
+    width: 50%;
+    float: left;
+    box-sizing: border-box;
+    /* overflow: hidden; */
+}
+.footer-section .footer-width .footer-2 .Get-Started-1>h1{
+    color: white;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.footer-section .footer-width .footer-2 .Get-Started-1 .link{
+    width: 50%;
+    padding-left: 60px;
+}
+.footer-section .footer-width .footer-2 .Get-Started-1 .link>a{
+    text-decoration: none;
+    display: inline-block;
+    color: rgba(211, 211, 211, 0.486);
+    font-size: 20px;
+    padding:10px;
+    
+}
+.footer-section .footer-width .footer-2>.Get-Started-2{
+    width: 50%;
+    overflow: hidden;
+}
+.footer-section .footer-width .footer-2 .Get-Started-2>h1{
+    color: white;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.footer-section .footer-width .footer-2 .Get-Started-2 .link{
+    width: 48%;
+    padding-left: 60px;
+}
+.footer-section .footer-width .footer-2 .Get-Started-2 .link>a{
+    text-decoration: none;
+    display: inline-block;
+    color: rgba(211, 211, 211, 0.486);
+    font-size: 20px;
+    padding: 10px;
+    box-sizing: border-box;
+    
+}
+.line{
+    width: 74%;
+    height: 1px;
+    background-color: gray;
+    margin-left: 142px;
+    margin-top: 60px;
+}
+.line>p{
+    text-align: center;
+    color: rgba(211, 211, 211, 0.486);
+    padding-top: 20px;
+    font-size: 18px;
+}
